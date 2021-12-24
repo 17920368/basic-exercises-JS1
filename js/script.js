@@ -22,6 +22,15 @@ console.log(countChart("Hola Mundo"));
 /* -------------------------------------------------------------------------- */
 /*                                Exercise two                                */
 /* -------------------------------------------------------------------------- */
+function subString(text, cant) {
+  let isString = typeof text;
+  if (isString == "string") {
+    return text.substr(0, cant);
+  } else {
+    console.error("It's not string");
+  }
+}
+console.log(subString("Hola Mundo", 4));
 /* -------------------------------------------------------------------------- */
 /*                               Exercise three                               */
 /* -------------------------------------------------------------------------- */
