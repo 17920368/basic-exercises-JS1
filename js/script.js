@@ -9,7 +9,7 @@ pe. miFuncion('hola que tal', ' ') devolverá ['hola', 'que', 'tal'].
 /* -------------------------------------------------------------------------- */
 /*                                Exercise one                                */
 /* -------------------------------------------------------------------------- */
-function countChart(data) {
+function countChart(data = "") {
   let isString = typeof data;
   if (isString == "string") {
     return data.length;
@@ -30,7 +30,7 @@ function subString(text, cant) {
     console.error("It's not string");
   }
 }
-console.log(subString("Hola Mundo", 4));
+// console.log(subString("Hola Mundo", 4));
 /* -------------------------------------------------------------------------- */
 /*                               Exercise three                               */
 /* -------------------------------------------------------------------------- */
@@ -42,7 +42,7 @@ function splitString(text, charat) {
     console.error("It's not string");
   }
 }
-console.log(splitString("hola que tal", " "));
+// console.log(splitString("hola que tal", " "));
 /* -------------------------------------------------------------------------- */
 /*                                Exercise four                               */
 /* -------------------------------------------------------------------------- */
@@ -59,4 +59,4 @@ function textLoop(text, cont) {
   return textReturn;
 }
 
-console.log(textLoop("Hola Mundo", 3));
+// console.log(textLoop("Hola Mundo", 3));
